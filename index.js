@@ -107,6 +107,9 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
   res.send("running smart car service");
 });
+app.get("/hero", (req, res) => {
+  res.send("Hero Is On The Way");
+});
 
 app.listen(port, () => {
   console.log("Listening To Smart Car", port);

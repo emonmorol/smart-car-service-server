@@ -1,0 +1,24 @@
+// *--------------
+// *One time for computer
+// *--------------
+// *1. create heroku account
+// *2.verify email
+// *3. install heroku
+// _4.heroku login
+// _----------
+// _for each project
+// _----------
+// *1.heroku create
+// *2. make sure everything is added in git ... git add . - git commit -m"" - git push..
+// *3. git push heroku main
+// *4. go to heroku dashboard > current project > settings > reveal config vars
+// *5. copy paste config cars form your .env file
+// *6. mongodb access to all id address(0,0,0,0)
+// *-----------------
+// *Update Server for new changes
+// *--------------
+// *1.make changes
+// *2. make sure everything is added in git ... git add . - git commit -m"" - git push..
+// *3. git push heroku main
+// *---------------
+// *connect server with client-
